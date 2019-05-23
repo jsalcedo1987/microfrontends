@@ -1,0 +1,21 @@
+{
+  "name": "123_sbbi_ad",
+  "description": "Advert about 123 bussiness account",
+  "version": "1.0.0",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "static": [
+        "img",
+        "css"
+      ],
+      "template": {
+        "src": "view.js",
+        "type": "oc-template-es6"
+      }
+    }
+  },
+  "devDependencies": {
+    "oc-template-es6-compiler": "1.1.5"
+  }
+}
